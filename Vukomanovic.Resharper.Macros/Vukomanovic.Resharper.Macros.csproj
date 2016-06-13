@@ -158,6 +158,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GeneralTransformPreSufFixVariableMacro.cs" />
     <Compile Include="RemovePrePostfixVariableMacro.cs" />
     <Compile Include="AddPrePostfixVariableMacro.cs" />
     <Compile Include="PrivateVariableMacro.cs" />

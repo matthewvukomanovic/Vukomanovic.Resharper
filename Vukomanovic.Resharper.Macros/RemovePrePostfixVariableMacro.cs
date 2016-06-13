@@ -10,7 +10,7 @@ namespace Vukomanovic.Resharper.Macros
         LongDescription = "Value of a variable removing user defined prefix and affix, use l|u to make the variable's first character lower|upper and L|U to make the entire thing lower|upper",
         ShortDescription = "Value of {#0:another variable} with prefix `{#1:prefix}` removed and affix `{#2:append}` removed and transformed with `{#3:transform}`"
         )]
-    public class RemovePrePostfixVariableMacroDefinition : SimpleMacroDefinition
+    public class RemovePreSufFixVariableMacroDefinition : SimpleMacroDefinition
     {
         public override ParameterInfo[] Parameters
         {
@@ -27,15 +27,15 @@ namespace Vukomanovic.Resharper.Macros
         }
     }
 
-    [MacroImplementation(Definition = typeof(RemovePrePostfixVariableMacroDefinition))]
-    public class RemovePrePostfixVariableMacroImplementation : SimpleMacroImplementation
+    [MacroImplementation(Definition = typeof(RemovePreSufFixVariableMacroDefinition))]
+    public class RemovePreSufFixVariableMacroImplementation : SimpleMacroImplementation
     {
         private readonly IMacroParameterValueNew _variableParameter;
         private readonly string _prefix;
-        private readonly string _postfix;
+        private readonly string _suffix;
         private readonly Transform _transform;
 
-        public RemovePrePostfixVariableMacroImplementation([Optional] MacroParameterValueCollection arguments)
+        public RemovePreSufFixVariableMacroImplementation([Optional] MacroParameterValueCollection arguments)
         {
             if (arguments == null || arguments.Count != 4)
             {
@@ -44,7 +44,7 @@ namespace Vukomanovic.Resharper.Macros
 
             _variableParameter = arguments[0];
             _prefix = ProcessHelper.GetRealValueOrNull(arguments[1]);
-            _postfix = ProcessHelper.GetRealValueOrNull(arguments[2]);
+            _suffix = ProcessHelper.GetRealValueOrNull(arguments[2]);
             _transform = ProcessHelper.GetTransformValueFromArgument(arguments[3]);
         }
 
@@ -60,35 +60,8 @@ namespace Vukomanovic.Resharper.Macros
                 return value;
             }
 
-            if (_prefix != null && _prefix.Length <= value.Length)
-            {
-                if (value.StartsWith(_prefix, StringComparison.InvariantCultureIgnoreCase))
-                {
-                    if (_prefix.Length < value.Length)
-                    {
-                        value = value.Substring(_prefix.Length);    
-                    }
-                    else
-                    {
-                        return string.Empty;
-                    }
-                }
-            }
-
-            if (_postfix != null && _postfix.Length <= value.Length)
-            {
-                if (value.EndsWith(_postfix, StringComparison.InvariantCultureIgnoreCase))
-                {
-                    if (_postfix.Length < value.Length)
-                    {
-                        value = value.Substring(0, value.Length - _postfix.Length);
-                    }
-                    else
-                    {
-                        return string.Empty;
-                    }
-                }
-            }
+            value = ProcessHelper.RemovePrefix(value, _prefix);
+            value = ProcessHelper.RemoveSuffix(value, _suffix);
 
             return ProcessHelper.ProcessValue(_transform, value);
         }

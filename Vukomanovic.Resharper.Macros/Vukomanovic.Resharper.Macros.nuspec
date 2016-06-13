@@ -2,12 +2,26 @@
 <package >
   <metadata>
     <id>Vukomanovic.Resharper.Macros</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>Vukomanovic.Resharper.Macros</title>
     <authors>Matthew Vukomanovic</authors>
-    <description>Matthew Vukomanovic's commonly wanted resharper macros</description>
     <copyright>Copyright &#x00A9; 2016 Matthew Vukomanovic</copyright>
+    <licenseUrl>https://github.com/matthewvukomanovic/Vukomanovic.Resharper/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/matthewvukomanovic/Vukomanovic.Resharper</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>Resharper Macros</tags>
+    <description>
+        Live template macros for variables that:
+        - Add or remove prefix and suffix; and
+        - Transform the case
+        - Provide a default value in case it resolves to empty
+        Includes a simple macro which prefixes another variable with _ and makes the first character lower case.
+    </description>
+    <releaseNotes>
+      Include a new macro which allows applying multiple of the different transforms all at once.
+      So you can remove something; make the first letter upper case; provide a default if the result is empty; add something; and remove something else.
+    </releaseNotes>
+    <summary>Matthew Vukomanovic's commonly wanted resharper macro for easier chaining of variable declarations</summary>
     <dependencies>
       <dependency id="Wave" version="[5.0]" />
     </dependencies>
