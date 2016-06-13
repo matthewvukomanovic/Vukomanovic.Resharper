@@ -57,7 +57,7 @@ namespace Vukomanovic.Resharper.Macros.Test
             };
 
             transform = "rp:_;rs:_;u;d:Lock;ap:got";
-            i = new GeneralTransformPreSufFixVariableMacroImplementation(c);
+            i = new GeneralFunctionVariableMacroImplementation(c);
             initial = "_lock_";
             value = i.EvaluateQuickResult(null); Debug.WriteLine("Initial: {0}\r\nProcessed: {1}", initial, value);
             initial = "_";

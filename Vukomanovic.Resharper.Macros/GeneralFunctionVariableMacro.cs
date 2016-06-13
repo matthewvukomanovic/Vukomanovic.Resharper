@@ -7,11 +7,11 @@ using JetBrains.ReSharper.Feature.Services.LiveTemplates.Macros;
 
 namespace Vukomanovic.Resharper.Macros
 {
-    [MacroDefinition("generalTransformPreSufFixVariable.Macro",
-        LongDescription = "Value of a variable with any number of transforms applied where the transforms are separated by `;`'s and operations are sepearated from their values by `:`'s. - ap:add prefix; - as:add suffix; - rp:remove prefix; - rs:remove suffix; -t:transform",
-        ShortDescription = "Value of {#0:another variable} with multiple transforms applied  `{#1:transforms}`"
+    [MacroDefinition("generalFunctionVariable.Macro",
+        LongDescription = "Value of a variable with any number of functions applied where the functions are separated by `;`'s and operations are sepearated from their values by `:`'s. - ap:add prefix; - as:add suffix; - rp:remove prefix; - rs:remove suffix; -t:transform; -d:default",
+        ShortDescription = "Value of {#0:another variable} with multiple functions applied  `{#1:functions}`"
         )]
-    public class GeneralTransformPreSufFixVariableMacroDefinition : SimpleMacroDefinition
+    public class GeneralFunctionVariableMacroDefinition : SimpleMacroDefinition
     {
         public override ParameterInfo[] Parameters
         {
@@ -26,13 +26,13 @@ namespace Vukomanovic.Resharper.Macros
         }
     }
 
-    [MacroImplementation(Definition = typeof(GeneralTransformPreSufFixVariableMacroDefinition))]
-    public class GeneralTransformPreSufFixVariableMacroImplementation : SimpleMacroImplementation
+    [MacroImplementation(Definition = typeof(GeneralFunctionVariableMacroDefinition))]
+    public class GeneralFunctionVariableMacroImplementation : SimpleMacroImplementation
     {
         private readonly IMacroParameterValueNew _variableParameter;
         private readonly Func<string, string> _functionToRun;
 
-        public GeneralTransformPreSufFixVariableMacroImplementation([Optional] MacroParameterValueCollection arguments)
+        public GeneralFunctionVariableMacroImplementation([Optional] MacroParameterValueCollection arguments)
         {
             if (arguments == null || arguments.Count != 2)
             {

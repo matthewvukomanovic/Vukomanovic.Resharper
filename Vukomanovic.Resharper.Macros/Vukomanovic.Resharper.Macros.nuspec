@@ -18,8 +18,9 @@
         Includes a simple macro which prefixes another variable with _ and makes the first character lower case.
     </description>
     <releaseNotes>
-      Include a new macro which allows applying multiple of the different transforms all at once.
+      Include a new macro which allows applying multiple (internal) functions at once.
       So you can remove something; make the first letter upper case; provide a default if the result is empty; add something; and remove something else.
+      For more information on how to use it look at the project page (https://github.com/matthewvukomanovic/Vukomanovic.Resharper)
     </releaseNotes>
     <summary>Matthew Vukomanovic's commonly wanted resharper macro for easier chaining of variable declarations</summary>
     <dependencies>
