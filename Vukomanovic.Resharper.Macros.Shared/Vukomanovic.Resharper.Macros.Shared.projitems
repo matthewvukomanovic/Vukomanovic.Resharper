@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>6e11911b-ef1b-48b0-a72c-5b51e36ea888</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Vukomanovic.Resharper.Macros.Shared</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AddPrePostfixVariableMacro.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)GeneralFunctionVariableMacro.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PrivateVariableMacro.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ProcessHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RemovePrePostfixVariableMacro.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Transform.cs" />
+  </ItemGroup>
+</Project>

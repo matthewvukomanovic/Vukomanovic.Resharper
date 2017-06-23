@@ -1,12 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros", "Vukomanovic.Resharper.Macros\Vukomanovic.Resharper.Macros.csproj", "{0A176731-D03B-413C-9597-9569FBBDBDE1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.Test", "Vukomanovic.Resharper.Macros.Test\Vukomanovic.Resharper.Macros.Test.csproj", "{A32AC260-F1BA-446C-827A-897C390640F8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0656E1D8-52F4-4ACE-A19E-3BCCED049D8D}"
 	ProjectSection(SolutionItems) = preProject
 		instanceExample.DotSettings = instanceExample.DotSettings
@@ -14,20 +10,76 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Vukomanovic.Resharper.Macros.Shared", "Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.shproj", "{6E11911B-EF1B-48B0-A72C-5B51E36EA888}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Vukomanovic.Resharper.Macros.Test.Shared", "Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.shproj", "{5F236824-D7E3-4BF3-B6CC-04A2A9460F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2016.1", "Vukomanovic.Resharper.Macros.2016.1\Vukomanovic.Resharper.Macros.2016.1.csproj", "{6AEEC28E-5FD7-4284-8D97-8A805BCD2021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2016.1.Test", "Vukomanovic.Resharper.Macros.2016.1.Test\Vukomanovic.Resharper.Macros.2016.1.Test.csproj", "{E314F183-C467-4BF9-931F-72925882FAB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2016.2", "Vukomanovic.Resharper.Macros.2016.2\Vukomanovic.Resharper.Macros.2016.2.csproj", "{7A60D087-D2D5-4B02-A27C-2F081526C239}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2016.2.Test", "Vukomanovic.Resharper.Macros.2016.2.Test\Vukomanovic.Resharper.Macros.2016.2.Test.csproj", "{E98CC552-FA5E-4DFC-898F-607037F5D8CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2016.3", "Vukomanovic.Resharper.Macros.2016.3\Vukomanovic.Resharper.Macros.2016.3.csproj", "{F66D71C6-AAD0-4465-9AE8-9100DD0A5F3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2016.3.Test", "Vukomanovic.Resharper.Macros.2016.3.Test\Vukomanovic.Resharper.Macros.2016.3.Test.csproj", "{1C4136C3-5C3B-4500-B624-CC5565C793EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2017.1", "Vukomanovic.Resharper.Macros.2017.1\Vukomanovic.Resharper.Macros.2017.1.csproj", "{F7A71BB2-2FE3-42F7-A91A-5A237EB0BC70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2017.1.Test", "Vukomanovic.Resharper.Macros.2017.1.Test\Vukomanovic.Resharper.Macros.2017.1.Test.csproj", "{13AF48DD-41A7-4158-85FB-0AA17A064582}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{13af48dd-41a7-4158-85fb-0aa17a064582}*SharedItemsImports = 4
+		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{1c4136c3-5c3b-4500-b624-cc5565c793ef}*SharedItemsImports = 4
+		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{5f236824-d7e3-4bf3-b6cc-04a2a9460f68}*SharedItemsImports = 13
+		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{6aeec28e-5fd7-4284-8d97-8a805bcd2021}*SharedItemsImports = 4
+		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{6e11911b-ef1b-48b0-a72c-5b51e36ea888}*SharedItemsImports = 13
+		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{7a60d087-d2d5-4b02-a27c-2f081526c239}*SharedItemsImports = 4
+		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{e314f183-c467-4bf9-931f-72925882fab3}*SharedItemsImports = 4
+		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{e98cc552-fa5e-4dfc-898f-607037f5d8cf}*SharedItemsImports = 4
+		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{f66d71c6-aad0-4465-9ae8-9100dd0a5f3c}*SharedItemsImports = 4
+		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{f7a71bb2-2fe3-42f7-a91a-5a237eb0bc70}*SharedItemsImports = 4
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0A176731-D03B-413C-9597-9569FBBDBDE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0A176731-D03B-413C-9597-9569FBBDBDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0A176731-D03B-413C-9597-9569FBBDBDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0A176731-D03B-413C-9597-9569FBBDBDE1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A32AC260-F1BA-446C-827A-897C390640F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A32AC260-F1BA-446C-827A-897C390640F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A32AC260-F1BA-446C-827A-897C390640F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A32AC260-F1BA-446C-827A-897C390640F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AEEC28E-5FD7-4284-8D97-8A805BCD2021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AEEC28E-5FD7-4284-8D97-8A805BCD2021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AEEC28E-5FD7-4284-8D97-8A805BCD2021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AEEC28E-5FD7-4284-8D97-8A805BCD2021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E314F183-C467-4BF9-931F-72925882FAB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E314F183-C467-4BF9-931F-72925882FAB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E314F183-C467-4BF9-931F-72925882FAB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E314F183-C467-4BF9-931F-72925882FAB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A60D087-D2D5-4B02-A27C-2F081526C239}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A60D087-D2D5-4B02-A27C-2F081526C239}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A60D087-D2D5-4B02-A27C-2F081526C239}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A60D087-D2D5-4B02-A27C-2F081526C239}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98CC552-FA5E-4DFC-898F-607037F5D8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98CC552-FA5E-4DFC-898F-607037F5D8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98CC552-FA5E-4DFC-898F-607037F5D8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98CC552-FA5E-4DFC-898F-607037F5D8CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F66D71C6-AAD0-4465-9AE8-9100DD0A5F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F66D71C6-AAD0-4465-9AE8-9100DD0A5F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F66D71C6-AAD0-4465-9AE8-9100DD0A5F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F66D71C6-AAD0-4465-9AE8-9100DD0A5F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C4136C3-5C3B-4500-B624-CC5565C793EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4136C3-5C3B-4500-B624-CC5565C793EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4136C3-5C3B-4500-B624-CC5565C793EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4136C3-5C3B-4500-B624-CC5565C793EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7A71BB2-2FE3-42F7-A91A-5A237EB0BC70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A71BB2-2FE3-42F7-A91A-5A237EB0BC70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A71BB2-2FE3-42F7-A91A-5A237EB0BC70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A71BB2-2FE3-42F7-A91A-5A237EB0BC70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13AF48DD-41A7-4158-85FB-0AA17A064582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13AF48DD-41A7-4158-85FB-0AA17A064582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13AF48DD-41A7-4158-85FB-0AA17A064582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13AF48DD-41A7-4158-85FB-0AA17A064582}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
