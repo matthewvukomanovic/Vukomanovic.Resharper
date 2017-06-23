@@ -8,7 +8,7 @@ using JetBrains.ReSharper.Feature.Services.LiveTemplates.Macros;
 namespace Vukomanovic.Resharper.Macros
 {
     [MacroDefinition("generalFunctionVariable.Macro",
-        LongDescription = "Value of a variable with any number of functions applied where the functions are separated by `;`'s and operations are sepearated from their values by `:`'s. - ap:add prefix; - as:add suffix; - rp:remove prefix; - rs:remove suffix; -t:transform; -d:default",
+        LongDescription = "Value of a variable with any number of functions applied where the functions are separated by `;`'s and operations are separated from their values by `:`'s. - ap:add prefix; - as:add suffix; - rp:remove prefix; - rs:remove suffix; -t:transform; -d:default",
         ShortDescription = "Value of {#0:another variable} with multiple functions applied  `{#1:functions}`"
         )]
     public class GeneralFunctionVariableMacroDefinition : SimpleMacroDefinition

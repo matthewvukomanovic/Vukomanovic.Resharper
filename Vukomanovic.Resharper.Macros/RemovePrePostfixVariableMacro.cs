@@ -7,7 +7,7 @@ using JetBrains.ReSharper.Feature.Services.LiveTemplates.Macros;
 namespace Vukomanovic.Resharper.Macros
 {
     [MacroDefinition("removePreAndPostFixVariable.Macro",
-        LongDescription = "Value of a variable removing user defined prefix and affix, use l|u to make the variable's first character lower|upper and L|U to make the entire thing lower|upper",
+        LongDescription = "Value of a variable removing user defined prefix and suffix, use l|u to make the variable's first character lower|upper and L|U to make the entire thing lower|upper",
         ShortDescription = "Value of {#0:another variable} with prefix `{#1:prefix}` removed and affix `{#2:append}` removed and transformed with `{#3:transform}`"
         )]
     public class RemovePreSufFixVariableMacroDefinition : SimpleMacroDefinition
