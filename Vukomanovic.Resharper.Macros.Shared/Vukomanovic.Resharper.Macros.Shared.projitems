@@ -10,6 +10,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)AddPrePostfixVariableMacro.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Assembly.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Constants.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GeneralFunctionVariableMacro.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PrivateVariableMacro.cs" />
