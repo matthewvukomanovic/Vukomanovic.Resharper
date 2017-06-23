@@ -173,8 +173,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="buildpackage-debug.bat" />
-    <None Include="buildpackage-release.bat" />
     <None Include="packages.config" />
     <None Include="Vukomanovic.Resharper.Macros.Debug.nuspec" />
     <None Include="Vukomanovic.Resharper.Macros.nuspec" />

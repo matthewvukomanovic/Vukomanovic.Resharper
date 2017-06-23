@@ -18,4 +18,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)RemovePrePostfixVariableMacro.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Transform.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)buildpackage-debug.bat" />
+    <None Include="$(MSBuildThisFileDirectory)buildpackage-release.bat" />
+  </ItemGroup>
 </Project>

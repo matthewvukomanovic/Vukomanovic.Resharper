@@ -296,8 +296,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="buildpackage-debug.bat" />
-    <None Include="buildpackage-release.bat" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
