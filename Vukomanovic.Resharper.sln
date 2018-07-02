@@ -50,6 +50,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2017.3", "2017.3", "{08054A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2017.3", "Vukomanovic.Resharper.Macros.2017.3\Vukomanovic.Resharper.Macros.2017.3.csproj", "{193796DF-5977-42C0-A90A-7779687AEAD0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2018.1", "2018.1", "{9CDBDA74-AF7F-433B-A5DF-794235877C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2018.1", "Vukomanovic.Resharper.Macros.2018.1\Vukomanovic.Resharper.Macros.2018.1.csproj", "{BACED9B6-AAD8-4104-A18E-58B0FE9182DE}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{13af48dd-41a7-4158-85fb-0aa17a064582}*SharedItemsImports = 4
@@ -58,6 +62,7 @@ Global
 		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{5ab2cddb-6812-4f70-8bde-6d47c5c51b5b}*SharedItemsImports = 4
 		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{5f236824-d7e3-4bf3-b6cc-04a2a9460f68}*SharedItemsImports = 13
 		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{6e11911b-ef1b-48b0-a72c-5b51e36ea888}*SharedItemsImports = 13
+		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{baced9b6-aad8-4104-a18e-58b0fe9182de}*SharedItemsImports = 4
 		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{f7a71bb2-2fe3-42f7-a91a-5a237eb0bc70}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +110,10 @@ Global
 		{193796DF-5977-42C0-A90A-7779687AEAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{193796DF-5977-42C0-A90A-7779687AEAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{193796DF-5977-42C0-A90A-7779687AEAD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BACED9B6-AAD8-4104-A18E-58B0FE9182DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BACED9B6-AAD8-4104-A18E-58B0FE9182DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BACED9B6-AAD8-4104-A18E-58B0FE9182DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BACED9B6-AAD8-4104-A18E-58B0FE9182DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +138,8 @@ Global
 		{5AB2CDDB-6812-4F70-8BDE-6D47C5C51B5B} = {9556FD19-3937-4D56-9B87-DBBEF30625C0}
 		{08054A36-CAB8-4028-ABEE-7AFA2D89B589} = {A16818C3-39D2-4C28-A28A-B70C57A3BE51}
 		{193796DF-5977-42C0-A90A-7779687AEAD0} = {08054A36-CAB8-4028-ABEE-7AFA2D89B589}
+		{9CDBDA74-AF7F-433B-A5DF-794235877C55} = {A16818C3-39D2-4C28-A28A-B70C57A3BE51}
+		{BACED9B6-AAD8-4104-A18E-58B0FE9182DE} = {9CDBDA74-AF7F-433B-A5DF-794235877C55}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {233D3E41-EC7B-4904-9672-07E8FAB797AA}

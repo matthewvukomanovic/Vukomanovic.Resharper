@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Vukomanovic.Resharper.Macros-debug</id>
+    <version>1.1.2018.1</version>
+    <title>Vukomanovic.Resharper.Macros Debug Version</title>
+    <authors>Matthew Vukomanovic</authors>
+    <description>Matthew Vukomanovic's commonly wanted resharper macros</description>
+    <copyright>Copyright &#x00A9; 2016 Matthew Vukomanovic</copyright>
+    <tags>Resharper Macros</tags>
+    <dependencies>
+      <dependency id="Wave" version="[12.0, 20.0)" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\debug\Vukomanovic.Resharper.Macros.Debug.dll" target="DotFiles\" />
+    <file src="bin\debug\Vukomanovic.Resharper.Macros.Debug.pdb" target="DotFiles\" />
+  </files>
+</package>
