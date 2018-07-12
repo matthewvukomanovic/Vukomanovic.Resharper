@@ -287,7 +287,9 @@
     <ItemGroup>
       <MySourceFiles Include="$(SolutionDir)built\*.*" />
     </ItemGroup>
+    <!--
     <Copy SkipUnchangedFiles="false" SourceFiles="@(MySourceFiles)" DestinationFiles="@(MySourceFiles->'B:\NuGet.Resharper\%(Filename)%(Extension)')" />
+    -->
   </Target>
   <Import Project="..\packages\Antlr2.Tools.2.7.6.4\build\Antlr2.Tools.targets" Condition="Exists('..\packages\Antlr2.Tools.2.7.6.4\build\Antlr2.Tools.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
