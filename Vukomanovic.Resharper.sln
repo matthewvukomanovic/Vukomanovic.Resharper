@@ -61,8 +61,13 @@ Global
 		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{1c4136c3-5c3b-4500-b624-cc5565c793ef}*SharedItemsImports = 4
 		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{5ab2cddb-6812-4f70-8bde-6d47c5c51b5b}*SharedItemsImports = 4
 		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{5f236824-d7e3-4bf3-b6cc-04a2a9460f68}*SharedItemsImports = 13
+		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{6aeec28e-5fd7-4284-8d97-8a805bcd2021}*SharedItemsImports = 4
 		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{6e11911b-ef1b-48b0-a72c-5b51e36ea888}*SharedItemsImports = 13
+		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{7a60d087-d2d5-4b02-a27c-2f081526c239}*SharedItemsImports = 4
 		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{baced9b6-aad8-4104-a18e-58b0fe9182de}*SharedItemsImports = 4
+		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{e314f183-c467-4bf9-931f-72925882fab3}*SharedItemsImports = 4
+		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{e98cc552-fa5e-4dfc-898f-607037f5d8cf}*SharedItemsImports = 4
+		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{f66d71c6-aad0-4465-9ae8-9100dd0a5f3c}*SharedItemsImports = 4
 		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{f7a71bb2-2fe3-42f7-a91a-5a237eb0bc70}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
