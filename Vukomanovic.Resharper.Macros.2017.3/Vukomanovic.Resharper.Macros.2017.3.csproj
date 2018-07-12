@@ -281,7 +281,7 @@
       PostBuildMacros;
     </PostBuildEventDependsOn>
     <!--<PostBuildEvent>echo HELLO, THE ASSEMBLY VERSION IS: @(VersionNumber)</PostBuildEvent>-->
-    <PostBuildEvent>NuGet.exe pack $(ProjectDir)$(TargetName).nuspec -OutputDirectory $(SolutionDir)built\ -NoPackageAnalysis -Version @(VersionNumber)</PostBuildEvent>
+    <PostBuildEvent>$(SolutionDir)Libs\nuget.exe pack $(ProjectDir)$(TargetName).nuspec -OutputDirectory $(SolutionDir)built\ -NoPackageAnalysis -Version @(VersionNumber)</PostBuildEvent>
   </PropertyGroup>
   <Target Name="AfterBuild">
     <ItemGroup>
