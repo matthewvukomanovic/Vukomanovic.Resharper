@@ -54,6 +54,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2018.1", "2018.1", "{9CDBDA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2018.1", "Vukomanovic.Resharper.Macros.2018.1\Vukomanovic.Resharper.Macros.2018.1.csproj", "{BACED9B6-AAD8-4104-A18E-58B0FE9182DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2017.2.Test", "Vukomanovic.Resharper.Macros.2017.2.Test\Vukomanovic.Resharper.Macros.2017.2.Test.csproj", "{A17D3665-704B-43AA-A5FC-474EEDAA8CD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2017.3.Test", "Vukomanovic.Resharper.Macros.2017.3.Test\Vukomanovic.Resharper.Macros.2017.3.Test.csproj", "{7E15A4E4-756B-4792-BB95-4576DB60E54C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vukomanovic.Resharper.Macros.2018.1.Test", "Vukomanovic.Resharper.Macros.2018.1.Test\Vukomanovic.Resharper.Macros.2018.1.Test.csproj", "{EC87E2EE-36F7-4018-83C4-04E25945AC54}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{13af48dd-41a7-4158-85fb-0aa17a064582}*SharedItemsImports = 4
@@ -64,9 +70,12 @@ Global
 		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{6aeec28e-5fd7-4284-8d97-8a805bcd2021}*SharedItemsImports = 4
 		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{6e11911b-ef1b-48b0-a72c-5b51e36ea888}*SharedItemsImports = 13
 		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{7a60d087-d2d5-4b02-a27c-2f081526c239}*SharedItemsImports = 4
+		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{7e15a4e4-756b-4792-bb95-4576db60e54c}*SharedItemsImports = 4
+		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{a17d3665-704b-43aa-a5fc-474eedaa8cd0}*SharedItemsImports = 4
 		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{baced9b6-aad8-4104-a18e-58b0fe9182de}*SharedItemsImports = 4
 		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{e314f183-c467-4bf9-931f-72925882fab3}*SharedItemsImports = 4
 		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{e98cc552-fa5e-4dfc-898f-607037f5d8cf}*SharedItemsImports = 4
+		Vukomanovic.Resharper.Macros.Test.Shared\Vukomanovic.Resharper.Macros.Test.Shared.projitems*{ec87e2ee-36f7-4018-83c4-04e25945ac54}*SharedItemsImports = 4
 		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{f66d71c6-aad0-4465-9ae8-9100dd0a5f3c}*SharedItemsImports = 4
 		Vukomanovic.Resharper.Macros.Shared\Vukomanovic.Resharper.Macros.Shared.projitems*{f7a71bb2-2fe3-42f7-a91a-5a237eb0bc70}*SharedItemsImports = 4
 	EndGlobalSection
@@ -119,6 +128,18 @@ Global
 		{BACED9B6-AAD8-4104-A18E-58B0FE9182DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BACED9B6-AAD8-4104-A18E-58B0FE9182DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BACED9B6-AAD8-4104-A18E-58B0FE9182DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17D3665-704B-43AA-A5FC-474EEDAA8CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17D3665-704B-43AA-A5FC-474EEDAA8CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17D3665-704B-43AA-A5FC-474EEDAA8CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17D3665-704B-43AA-A5FC-474EEDAA8CD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E15A4E4-756B-4792-BB95-4576DB60E54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E15A4E4-756B-4792-BB95-4576DB60E54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E15A4E4-756B-4792-BB95-4576DB60E54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E15A4E4-756B-4792-BB95-4576DB60E54C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC87E2EE-36F7-4018-83C4-04E25945AC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC87E2EE-36F7-4018-83C4-04E25945AC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC87E2EE-36F7-4018-83C4-04E25945AC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC87E2EE-36F7-4018-83C4-04E25945AC54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -145,6 +166,9 @@ Global
 		{193796DF-5977-42C0-A90A-7779687AEAD0} = {08054A36-CAB8-4028-ABEE-7AFA2D89B589}
 		{9CDBDA74-AF7F-433B-A5DF-794235877C55} = {A16818C3-39D2-4C28-A28A-B70C57A3BE51}
 		{BACED9B6-AAD8-4104-A18E-58B0FE9182DE} = {9CDBDA74-AF7F-433B-A5DF-794235877C55}
+		{A17D3665-704B-43AA-A5FC-474EEDAA8CD0} = {9556FD19-3937-4D56-9B87-DBBEF30625C0}
+		{7E15A4E4-756B-4792-BB95-4576DB60E54C} = {08054A36-CAB8-4028-ABEE-7AFA2D89B589}
+		{EC87E2EE-36F7-4018-83C4-04E25945AC54} = {9CDBDA74-AF7F-433B-A5DF-794235877C55}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {233D3E41-EC7B-4904-9672-07E8FAB797AA}
