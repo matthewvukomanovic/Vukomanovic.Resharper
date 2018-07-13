@@ -82,9 +82,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Vukomanovic.Resharper.Macros.2018.1\Vukomanovic.Resharper.Macros.2018.1.csproj">
+    <ProjectReference Include="..\Vukomanovic.Resharper.Macros.Template\Vukomanovic.Resharper.Macros.Template.csproj">
       <Project>{f7a71bb2-2fe3-42f7-a91a-5a237eb0bc70}</Project>
-      <Name>Vukomanovic.Resharper.Macros.2018.1</Name>
+      <Name>Vukomanovic.Resharper.Macros.Template</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

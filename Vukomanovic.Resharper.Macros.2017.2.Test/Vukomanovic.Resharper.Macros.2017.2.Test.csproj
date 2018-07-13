@@ -284,7 +284,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Vukomanovic.Resharper.Macros.2017.1\Vukomanovic.Resharper.Macros.2017.1.csproj">
+    <ProjectReference Include="..\Vukomanovic.Resharper.Macros.2017.2\Vukomanovic.Resharper.Macros.2017.2.csproj">
       <Project>{f7a71bb2-2fe3-42f7-a91a-5a237eb0bc70}</Project>
       <Name>Vukomanovic.Resharper.Macros.2017.2</Name>
     </ProjectReference>
